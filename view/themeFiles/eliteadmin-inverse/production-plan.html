@@ -1,0 +1,633 @@
+<!DOCTYPE html>  
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="icon" type="image/png" sizes="16x16" href="../plugins/images/favicon.png">
+        <title>Elite Admin Template - The Ultimate Multipurpose admin template</title>
+        <!-- Bootstrap Core CSS -->
+        <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Menu CSS -->
+        <link href="../plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.css" rel="stylesheet">
+        <!-- animation CSS -->
+        <link href="css/animate.css" rel="stylesheet">
+        <!-- Custom CSS -->
+        <link href="css/style.css" rel="stylesheet">
+        <!-- color CSS -->
+        <link href="css/colors/default.css" id="theme"  rel="stylesheet">
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        <script>
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                        m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+            ga('create', 'UA-19175540-9', 'auto');
+            ga('send', 'pageview');
+
+        </script>
+    </head>
+    <body class="fix-sidebar">
+        <!-- Preloader -->
+        <div class="preloader">
+            <div class="cssload-speeding-wheel"></div>
+        </div>
+        <div id="wrapper">
+            <!-- Top Navigation -->
+            <nav class="navbar navbar-default navbar-static-top m-b-0">
+                <div class="navbar-header"> <a class="navbar-toggle hidden-sm hidden-md hidden-lg " href="javascript:void(0)" data-toggle="collapse" data-target=".navbar-collapse"><i class="ti-menu"></i></a>
+                    
+                    <ul class="nav navbar-top-links navbar-left hidden-xs">
+                        <li><a href="javascript:void(0)" class="open-close hidden-xs"><i class="icon-arrow-left-circle ti-menu"></i></a></li>        
+                    </ul>      
+                </div>
+            </nav>
+            <!-- End Top Navigation -->
+            <!-- Left navbar-header -->
+            <div class="navbar-default sidebar" role="navigation">    
+                <div class="sidebar-nav navbar-collapse slimscrollsidebar">
+                    
+
+                    <ul class="nav" id="side-menu">
+                        <li> <a href="map-google.html" class="waves-effect"><i data-icon="Q" class="linea-icon linea-basic fa-fw"></i><span class="hide-menu" >Google Map</span></a> </li>
+                        <li> <a href="map-vector.html" class="waves-effect"><i data-icon="S" class="linea-icon linea-basic fa-fw"></i><span class="hide-menu" >Vector Map</span></a> </li>
+                        <li> <a href="calendar.html" class="waves-effect"><i data-icon="A" class="linea-icon linea-elaborate fa-fw"></i> <span class="hide-menu">Calendar</span></a></li>
+
+                        <li><a href="login.html" class="waves-effect"><i class="icon-logout fa-fw"></i> <span class="hide-menu">Log out</span></a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <!-- Left navbar-header end -->
+            <!-- Page Content -->
+            <div id="page-wrapper">
+                <div class="container-fluid">
+                    <div class="row bg-title">
+                        <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
+                            <h4 class="page-title">Production Plan</h4>
+                        </div>
+
+                        <!-- /.col-lg-12 -->
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="white-box">
+                                <h3 class="box-title">Production Plan</h3>
+                                <p class="text-muted">Style: 1SN05C</p>
+                                <div class="table-responsive">
+                                    <div style="overflow-x:auto; width:5000px; height:auto">
+                                        <table class="table table-bordered" style="table-layout:fixed; border-color: black;">
+                                            <thead>
+                                                <tr>
+                                                    <th rowspan="2" style="width: 60px; border-color: black;"></th>
+                                                    <th colspan="18" style="font-size: 24px; border-color: black; text-align: center;">Planned Production</th>
+                                                    <th colspan="18" style="font-size: 24px; border-color: black; text-align: center;">Actual Production</th>
+                                                    <th colspan="18" style="font-size: 24px; border-color: black; text-align: center;">Planned Shipment</th>
+                                                    <th colspan="18" style="font-size: 24px; border-color: black; text-align: center;">Actual Shipment</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr style="text-align: center;">
+                                                    <td style="border-color: black;">Date</td>
+                                                    <td colspan="2" style="border-color: black;">Plant 1</td>
+                                                    <td colspan="2" style="border-color: black;">Plant 2</td>
+                                                    <td colspan="2" style="border-color: black;">Plant 3</td>
+                                                    <td colspan="2" style="border-color: black;">Plant 4</td>
+                                                    <td colspan="2" style="border-color: black;">Plant 5</td>
+                                                    <td colspan="2" style="border-color: black;">Plant 6</td>
+                                                    <td colspan="2" style="border-color: black;">Plant 7</td>
+                                                    <td colspan="2" style="border-color: black;">Total</td>
+                                                    <td colspan="2" style="border-color: black;">Remarks</td>
+                                                    <td colspan="2" style="border-color: black;">Plant 1</td>
+                                                    <td colspan="2" style="border-color: black;">Plant 2</td>
+                                                    <td colspan="2" style="border-color: black;">Plant 3</td>
+                                                    <td colspan="2" style="border-color: black;">Plant 4</td>
+                                                    <td colspan="2" style="border-color: black;">Plant 5</td>
+                                                    <td colspan="2" style="border-color: black;">Plant 6</td>
+                                                    <td colspan="2" style="border-color: black;">Plant 7</td>
+                                                    <td colspan="2" style="border-color: black;">Total</td>
+                                                    <td colspan="2" style="border-color: black;">Remarks</td>
+                                                    <td colspan="2" style="border-color: black;">Plant 1</td>
+                                                    <td colspan="2" style="border-color: black;">Plant 2</td>
+                                                    <td colspan="2" style="border-color: black;">Plant 3</td>
+                                                    <td colspan="2" style="border-color: black;">Plant 4</td>
+                                                    <td colspan="2" style="border-color: black;">Plant 5</td>
+                                                    <td colspan="2" style="border-color: black;">Plant 6</td>
+                                                    <td colspan="2" style="border-color: black;">Plant 7</td>
+                                                    <td colspan="2" style="border-color: black;">Total</td>
+                                                    <td colspan="2" style="border-color: black;">Remarks</td>
+                                                    <td colspan="2" style="border-color: black;">Plant 1</td>
+                                                    <td colspan="2" style="border-color: black;">Plant 2</td>
+                                                    <td colspan="2" style="border-color: black;">Plant 3</td>
+                                                    <td colspan="2" style="border-color: black;">Plant 4</td>
+                                                    <td colspan="2" style="border-color: black;">Plant 5</td>
+                                                    <td colspan="2" style="border-color: black;">Plant 6</td>
+                                                    <td colspan="2" style="border-color: black;">Plant 7</td>
+                                                    <td colspan="2" style="border-color: black;">Total</td>
+                                                    <td colspan="2" style="border-color: black;">Remarks</td>
+                                                </tr>
+                                                <tr>
+                                                    <!-- Date -->
+                                                    <td style="text-align: right; font-size: 20px; border-color: black;">1</td>
+                                                    <!-- Planned Production -->
+                                                    <!-- Value_01 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_01 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_02 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_02 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_03 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_03 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_04 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_04 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_05 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_05 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_06 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_06 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_07 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_07 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- TOTAL -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- TOTAL_TTL -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Remarks -->
+                                                    <td colspan="2" style="border-color: black; border-left-color: lightgrey"></td>
+
+                                                    <!-- Actual Production -->
+                                                    <!-- Value_01 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_01 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_02 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_02 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_03 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_03 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_04 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_04 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_05 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_05 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_06 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_06 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_07 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_07 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- TOTAL -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- TOTAL_TTL -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Remarks -->
+                                                    <td colspan="2" style="border-color: black; border-left-color: lightgrey"></td>
+
+                                                    <!-- Planned Shipment -->
+                                                    <!-- Value_01 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_01 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_02 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_02 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_03 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_03 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_04 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_04 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_05 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_05 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_06 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_06 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_07 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_07 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- TOTAL -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- TOTAL_TTL -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Remarks -->
+                                                    <td colspan="2" style="border-color: black; border-left-color: lightgrey"></td>
+
+                                                    <!-- Actual Shipment -->
+                                                    <!-- Value_01 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_01 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_02 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_02 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_03 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_03 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_04 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_04 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_05 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_05 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_06 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_06 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_07 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_07 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- TOTAL -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- TOTAL_TTL -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Remarks -->
+                                                    <td colspan="2" style="border-color: black; border-left-color: lightgrey"></td>
+                                                </tr>
+                                                <tr>
+                                                    <!-- Date -->
+                                                    <td style="text-align: right; font-size: 20px; border-color: black;">2</td>
+                                                    <!-- Planned Production -->
+                                                    <!-- Value_01 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_01 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_02 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_02 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_03 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_03 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_04 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_04 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_05 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_05 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_06 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_06 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_07 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_07 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- TOTAL -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- TOTAL_TTL -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Remarks -->
+                                                    <td colspan="2" style="border-color: black; border-left-color: lightgrey"></td>
+
+                                                    <!-- Actual Production -->
+                                                    <!-- Value_01 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_01 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_02 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_02 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_03 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_03 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_04 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_04 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_05 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_05 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_06 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_06 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_07 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_07 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- TOTAL -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- TOTAL_TTL -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Remarks -->
+                                                    <td colspan="2" style="border-color: black; border-left-color: lightgrey"></td>
+
+                                                    <!-- Planned Shipment -->
+                                                    <!-- Value_01 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_01 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_02 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_02 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_03 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_03 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_04 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_04 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_05 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_05 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_06 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_06 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_07 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_07 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- TOTAL -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- TOTAL_TTL -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Remarks -->
+                                                    <td colspan="2" style="border-color: black; border-left-color: lightgrey"></td>
+
+                                                    <!-- Actual Shipment -->
+                                                    <!-- Value_01 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_01 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_02 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_02 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_03 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_03 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_04 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_04 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_05 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_05 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_06 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_06 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_07 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_07 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- TOTAL -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- TOTAL_TTL -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Remarks -->
+                                                    <td colspan="2" style="border-color: black; border-left-color: lightgrey"></td>
+                                                </tr>
+                                                <tr>
+                                                    <!-- Date -->
+                                                    <td style="text-align: right; font-size: 20px; border-color: black;">3</td>
+                                                    <!-- Planned Production -->
+                                                    <!-- Value_01 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_01 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_02 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_02 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_03 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_03 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_04 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_04 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_05 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_05 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_06 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_06 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_07 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_07 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- TOTAL -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- TOTAL_TTL -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Remarks -->
+                                                    <td colspan="2" style="border-color: black; border-left-color: lightgrey"></td>
+
+                                                    <!-- Actual Production -->
+                                                    <!-- Value_01 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_01 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_02 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_02 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_03 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_03 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_04 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_04 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_05 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_05 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_06 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_06 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_07 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_07 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- TOTAL -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- TOTAL_TTL -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Remarks -->
+                                                    <td colspan="2" style="border-color: black; border-left-color: lightgrey"></td>
+
+                                                    <!-- Planned Shipment -->
+                                                    <!-- Value_01 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_01 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_02 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_02 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_03 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_03 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_04 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_04 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_05 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_05 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_06 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_06 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_07 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_07 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- TOTAL -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- TOTAL_TTL -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Remarks -->
+                                                    <td colspan="2" style="border-color: black; border-left-color: lightgrey"></td>
+
+                                                    <!-- Actual Shipment -->
+                                                    <!-- Value_01 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_01 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_02 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_02 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_03 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_03 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_04 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_04 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_05 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_05 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_06 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_06 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Value_07 -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- Total_07 -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- TOTAL -->
+                                                    <td style="border-color: black; border-right-color: lightgrey"></td>
+                                                    <!-- TOTAL_TTL -->
+                                                    <td style="border-color: black; border-left-color: lightgrey"></td>
+                                                    <!-- Remarks -->
+                                                    <td colspan="2" style="border-color: black; border-left-color: lightgrey"></td>
+                                                </tr>
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- /.container-fluid -->
+                <footer class="footer text-center"> 2017 &copy; Quoded &trade; </footer>
+            </div>
+            <!-- /#page-wrapper -->
+        </div>
+        <!-- /#wrapper -->
+        <!-- jQuery -->
+        <script src="../plugins/bower_components/jquery/dist/jquery.min.js"></script>
+        <!-- Bootstrap Core JavaScript -->
+        <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+        <!-- Menu Plugin JavaScript -->
+        <script src="../plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.js"></script>
+        <!--slimscroll JavaScript -->
+        <script src="js/jquery.slimscroll.js"></script>
+        <!--Wave Effects -->
+        <script src="js/waves.js"></script>
+        <!-- Custom Theme JavaScript -->
+        <script src="js/custom.min.js"></script>
+        <!-- Editable -->
+        <script src="../plugins/bower_components/jquery-datatables-editable/jquery.dataTables.js"></script>
+        <script src="../plugins/bower_components/datatables/dataTables.bootstrap.js"></script>
+        <script src="../plugins/bower_components/tiny-editable/mindmup-editabletable.js"></script>
+        <script src="../plugins/bower_components/tiny-editable/numeric-input-example.js"></script>
+        <script>
+
+            $('#mainTable').editableTableWidget().numericInputExample().find('td:first').focus();
+            $('#editable-datatable').editableTableWidget().numericInputExample().find('td:first').focus();
+            $(document).ready(function () {
+                $('#editable-datatable').DataTable();
+
+
+
+            });
+
+        </script>
+        <!-- Style Switcher -->
+        <script src="../plugins/bower_components/styleswitcher/jQuery.style.switcher.js"></script>
+    </body>
+</html>
